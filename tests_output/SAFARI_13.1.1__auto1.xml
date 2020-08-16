@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="auto1"
+    errors="1" failures="0" hostname="" id="" package="auto1" skipped="0"
+    tests="1" time="0.004000" timestamp="">
+  
+    <testcase name="Demo test Ecosia.org" classname="auto1" time="0.004000" assertions="0">
+    <error message="browser.page.signup is not a function" type="error"><![CDATA[
+    TypeError: browser.page.signup is not a function
+    at Object.Demo test Ecosia.org (/Users/samaythakkar/PycharmProjects/nightwatchjsdemo/automationfiles/auto1.js:13:28)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:376:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:443:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:448:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: browser.page.signup is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.Demo test Ecosia.org (/Users/samaythakkar/PycharmProjects/nightwatchjsdemo/automationfiles/auto1.js:13:28)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

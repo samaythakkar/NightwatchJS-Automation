@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="3">
+
+  <testsuite name="auto1"
+    errors="1" failures="1" hostname="" id="" package="auto1" skipped="0"
+    tests="3" time="25.86" timestamp="">
+  
+    <testcase name="Fill up first page " classname="auto1" time="13.74" assertions="0">
+    </testcase>
+  
+    <testcase name="Fill up signup form" classname="auto1" time="1.344" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify the order is placed" classname="auto1" time="10.77" assertions="1">  <failure message="Testing if value of element &lt;Element [name=@bookingMessage]&gt; equals &#39;Thanks for your booking!&#39; in 5000ms - expected &#34;equals &#39;Thanks for your booking!&#39;&#34; but got: &#34;Element does not have a value attribute&#34; (5303ms)">    at Object.Verify the order is placed (/Users/samaythakkar/PycharmProjects/nightwatchjsdemo/automationfiles/auto1.js:51:29)</failure>
+<system-out>[[ATTACHMENT|/Users/samaythakkar/PycharmProjects/nightwatchjsdemo/screens/auto1/Verify-the-order-is-placed_FAILED_Aug-12-2020-030845-GMT+0530-(India-Standard.png]]</system-out>
+    
+    <error message="Error while running &#34;value&#34; command: Testing if value of element [0;33m&lt;Element [name=@bookingMessage]&gt;[0m equals [0;33m&#39;Thanks for your booking!&#39;[0m in 5000ms - expected [0;32m&#34;equals &#39;Thanks for your booking!&#39;&#34;[0m but got: [0;31m&#34;Element does not have a value attribute&#34;[0m [0;90m(5303ms)[0m" type="error"><![CDATA[
+        at Object.Verify the order is placed (/Users/samaythakkar/PycharmProjects/nightwatchjsdemo/automationfiles/auto1.js:51:29)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@bookingMessage]&gt;: 
+   {&#34;sessionId&#34;:&#34;62555c670f802daeee74cd7cb3249229&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
